@@ -10,10 +10,12 @@ namespace StaffManagementAPI.models
         [Column("staffId")] // 👈 Maps to SQL primary key
         public int staffId { get; set; }
 
-        [Column("firstname")]
-        public string? firstname { get; set; }
-        [Column("secondname")]
-        public string? secondname { get; set; }
+        [Column("fullname")]
+        public string? fullname { get; set; }
+
+        [Column("fathername")]
+        public string? fathername { get; set; }
+
         [Column("email")]
         public string? Email { get; set; }
           [Column("phonenumber")]
@@ -24,8 +26,8 @@ namespace StaffManagementAPI.models
         [Column("gender")]
         public string? Gender { get; set; }      
 
-    // [Column("photo")]
-    // public byte[]? ImageUrl { get; set; } // ✅ Correct type
+    [Column("photo")]
+    public byte[]? photo { get; set; } // ✅ Correct type
 
 
 
@@ -45,20 +47,30 @@ namespace StaffManagementAPI.models
  
         [Column("departmentID")]
         public int DepartmentId { get; set; }  
-        // [Column("designation")]
-        // public string? Designation { get; set; }
 
-        // [Column("religion")]
-        // public string? Religion { get; set; }
+        // [Column("departmentlevel")]
+        // public int departmentlevel { get; set; }  
+
+        [Column("designation")]
+        public string? Designation { get; set; }
+
+        [Column("religion")]
+        public string? Religion { get; set; }
 
         [Column("resume")]
         public string? resume { get; set; }
 
-        // [Column("isactive")]
-        // public string? JobStatus { get; set; }
+        [Column("isactive")]
+        public string? JobStatus { get; set; }
 
-        // [Column("confirmationdate")]
-        // public DateTime? ConfirmationDate { get; set; }
+        [Column("confirmationdate")]
+        public DateTime? ConfirmationDate { get; set; }
+
+        [Column("JoiningDate")]
+        public DateTime? JoiningDate { get; set; }
+
+        [Column("dateofleaving")]
+        public DateTime? dateofleaving { get; set; }
 
         [Column("salary")]
         public decimal? salary{ get; set; }
@@ -71,7 +83,27 @@ namespace StaffManagementAPI.models
         
         [Column("officelocation")]
         public string? officelocation { get; set; }
-        // [Column("IdExpiryDate")]
-        // public DateTime IdExpiryDate { get; set; }
+
+        [Column("IdExpiryDate")]
+        public DateTime? IdExpiryDate { get; set; }
+
+        [Column("section")]
+        public string? section { get; set; }
+
+        [Column("levelpolicy")]
+        public int? levelpolicy { get; set; }
+
+        [Column("bloodGroup")]
+        public string? bloodGroup { get; set; }
+
+        // [Column("HOD")]
+        // public bool? HOD { get; set; }
+
+        // [Column("AsstHod")]
+        // public bool? AsstHod { get; set; }
+
+        [Column("Reason")]
+        public string? Reason { get; set; }
+
     }
 }

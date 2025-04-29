@@ -85,3 +85,4 @@ C:\Users\Shoaib\OneDrive\Desktop\staffmanagementbackend\staffmanagementbackend\o
 C:\Users\Shoaib\OneDrive\Desktop\staffmanagementbackend\staffmanagementbackend\obj\Debug\net8.0\staffmanagementbackend.pdb
 C:\Users\Shoaib\OneDrive\Desktop\staffmanagementbackend\staffmanagementbackend\obj\Debug\net8.0\staffmanagementbackend.genruntimeconfig.cache
 C:\Users\Shoaib\OneDrive\Desktop\staffmanagementbackend\staffmanagementbackend\obj\Debug\net8.0\ref\staffmanagementbackend.dll
+C:\Users\Shoaib\OneDrive\Desktop\staffmanagementbackend\staffmanagementbackend\obj\Debug\net8.0\staffmanagementbackend.sourcelink.json
